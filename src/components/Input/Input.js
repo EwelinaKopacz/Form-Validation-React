@@ -7,10 +7,10 @@ const Input = (props) => {
     console.log(value);
     return (
         <InputBox>
-            <InputField name={name} value={value} type={type} onChange={onChange}
-            
+            <InputField name={name} value={value} type={type} onChange={onChange} 
+                hasValue={`${value ? true : false}`}
             />
-            <InputLabel hasValue={`${value ? true : false}`}>{label}</InputLabel>
+            <InputLabel>{label}</InputLabel>
             <InputError>{error}</InputError>
         </InputBox>
     );
