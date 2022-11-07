@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"firstName",
+        "type":"text",
+        "label":"First Name"
+    },
+    {
+        "id":2,
+        "name":"lastName",
+        "type":"text",
+        "label":"Last Name"
+    },
+    {
+        "id":3,
+        "name":"email",
+        "type":"email",
+        "label":"Email"
+    },
+    {
+        "id":4,
+        "name":"phone",
+        "type":"phone",
+        "label":"Phone number"
+    }
+]
