@@ -43,14 +43,6 @@ const InputLabel = styled.label`
         font-size: 1.2rem;
         background-image: var(--bg-body-image);
     }
-    ${InputField} ~ & {
-        ${props => props.hasValue}{
-            transform: translateY(-38px);
-            color:rgba(255, 255, 255, 1.0);
-            font-size: 1.2rem;
-            background-image: var(--bg-body-image);
-        }
-    }
 `;
 
 const InputError = styled.span`
