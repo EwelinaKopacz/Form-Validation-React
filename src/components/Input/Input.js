@@ -4,13 +4,13 @@ import {InputBox, InputField, InputLabel, InputError} from "./Input.styled";
 const Input = (props) => {
     const {item, value, error, onChange} = props;
     const {name, type, label} = item;
-    console.log(value);
+
     return (
         <InputBox>
-            <InputField name={name} value={value} type={type} onChange={onChange} 
-                hasValue={`${value ? true : false}`}
+            <InputField name={name} value={value} type={type} onChange={onChange}
+            
             />
-            <InputLabel>{label}</InputLabel>
+            <InputLabel className={`${value ? "has-value" : ""}`}>{label}</InputLabel>
             <InputError>{error}</InputError>
         </InputBox>
     );

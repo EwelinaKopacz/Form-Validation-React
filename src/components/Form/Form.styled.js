@@ -17,7 +17,7 @@ const FormContainer = styled.form`
     justify-content:center;
     align-items: center;
     padding:20px 0px;
-    gap:2.8rem;
+    gap:3.8rem;
 
 `;
 
