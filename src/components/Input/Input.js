@@ -7,9 +7,7 @@ const Input = (props) => {
 
     return (
         <InputBox>
-            <InputField name={name} value={value} type={type} onChange={onChange}
-            
-            />
+            <InputField name={name} value={value} type={type} onChange={onChange}/>
             <InputLabel className={`${value ? "has-value" : ""}`}>{label}</InputLabel>
             <InputError>{error}</InputError>
         </InputBox>

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, {useState} from 'react';
 import formValidation from '../Utility/formValidation.js';
 
@@ -8,8 +9,10 @@ const useForm = () => {
         email:'',
         phone:'',
     }
+
     const [state, setState] = useState(init);
     const [errors, setErrors] = useState({});
+    const [showModal, setShowModal] = useState(false);
 
     const handelChange = e => {
         let inputValue = e.target.value;
@@ -18,20 +21,31 @@ const useForm = () => {
         setState({...state,[inputName]:inputValue})
     }
 
+    const clearState = ()=> {
+        setState(init);
+    }
+
     const handleSubmit = e => {
         e.preventDefault();
         const errors = formValidation(state);
         if(Object.keys(errors).length === 0){
-            return true
+            setShowModal(true);
+            clearState();
         }
         setErrors(errors);
+    }
+
+    const handleModal = () => {
+        setShowModal(false)
     }
 
     return {
         state,
         errors,
         handelChange,
-        handleSubmit
+        handleSubmit,
+        showModal,
+        handleModal
     };
 };
 

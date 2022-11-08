@@ -18,9 +18,24 @@ const InputField = styled.input`
     color:rgba(255, 255, 255, 1.0);
     padding-left:1.5rem;
 
-    :hover {
+    &:hover {
         border-color: rgba(255, 255, 255, 1.0);
         box-shadow: 0 0 0.3125rem rgba(255, 255, 255, 0.8);
+    }
+
+    &:-webkit-autofill {
+        box-shadow: 0 0 0 30px #000000 inset !important;
+        -webkit-text-fill-color:var(--clr-bg-light);
+    }
+
+    &:-webkit-autofill:hover {
+        box-shadow: 0 0 0 30px #000000 inset !important;
+        -webkit-text-fill-color:var(--clr-bg-light);
+    }
+
+    &:-webkit-autofill:focus {
+        box-shadow: 0 0 0 30px #000000 inset !important;
+        -webkit-text-fill-color:var(--clr-bg-light);
     }
 `;
 
@@ -52,7 +67,6 @@ const InputLabel = styled.label`
         `
     }
 `;
-
 
 const InputError = styled.span`
     position: absolute;

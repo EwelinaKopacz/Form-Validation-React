@@ -7,6 +7,7 @@ const FormWrapper = styled.div`
     align-items: center;
     width: 400px;
     border: 1px solid white;
+    position: relative;
 
 `;
 
