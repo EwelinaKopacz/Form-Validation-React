@@ -7,8 +7,8 @@ const Modal = ({show, onClick}) => {
     return (
         <>
             {show && (
-            <ModalWrapper>
-                <ModalContainer>
+            <ModalWrapper className='wrapper-open'>
+                <ModalContainer className='modal-open'>
                     <Title>Success</Title>
                     <ModalText>Thank you. Your message was sent successfully. We will contant you as soon as possible.</ModalText>
                     <Button type="submit" onClick={onClick}>OK</Button>
