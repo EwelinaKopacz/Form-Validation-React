@@ -18,17 +18,23 @@ I found a little time just for me so I decided to create a contact form with val
 
 
 ## Links
-* Live Site URL: [E.Kopacz-ToogleTheme](https://toogletheme-ekopacz.netlify.app)
+* Live Site URL: [E.Kopacz-Contact Form](https://contactform-ekopacz.netlify.app)
 
 ### Preview
 Contact Form
-![Preview](./previews/contact-form-ekopacz.png)
+
+<img src="./previews/contact-form-ekopacz.png" width="350" height="450">
+
 
 Contact Form validation of data
-![Preview](./previews/contact-form-errors-ekopacz.png)
+
+<img src="./previews/contact-form-errors-ekopacz.png" width="350" height="450">
+
 
 Contact Form succes modal
-![Preview](./previews/contact-form-success-ekopacz.png)
+
+<img src="./previews/contact-form-success-ekopacz.png" width="350" height="450">
+
 
 ### Feel free to contact me:
 * [Linkedin](https://www.linkedin.com/in/ewelina-kopacz-929559100/)
