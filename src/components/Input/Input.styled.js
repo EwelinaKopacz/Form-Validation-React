@@ -5,6 +5,7 @@ const InputBox = styled.div`
     flex-direction: column;
     align-items:flex-start;
     width: 60%;
+    min-width: 160px;
     height: 5rem;
     position: relative;
 `;

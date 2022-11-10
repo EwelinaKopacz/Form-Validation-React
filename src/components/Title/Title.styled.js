@@ -5,6 +5,7 @@ const HeaderH2 = styled.h2`
     font-weight: 500;
     padding:20px 0;
     letter-spacing: 1px;
+    text-align: center;
 `;
 
 export default HeaderH2;

@@ -8,6 +8,7 @@ const FormWrapper = styled.div`
     width: 400px;
     border: 0.2rem solid rgba(255, 255, 255, 0.2);
     padding:2rem 0;
+    margin:1.2rem;
     position: relative;
 
 `;
